@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    padding:1rem 2rem;
+}
+
+#gauge{
+    height:15px;
+    background-color: red;
+    width:0%;
+    border-radius: 15px;
+}
+
+#scale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#previousGuesses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+
+}
+
+.low{
+    color:orange;
+}
+.high{
+    color:orchid;
+}
+.correct{
+    color: lightseagreen;
+    font-weight: 900;
+    border: 2px solid;
+    border-radius: 4px;
+    padding:4px;
+}
